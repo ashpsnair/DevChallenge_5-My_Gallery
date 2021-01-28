@@ -1,0 +1,92 @@
+#main{
+    width: 100%;
+    max-width: 1440px;
+    margin:auto;
+   
+}
+.profile{
+    width:60%;
+    margin:auto;
+   text-align:center;
+}
+.profile img{
+    border-radius: 16px;
+    max-width:100%;
+    width:156px;
+    height: 156px;
+    margin-top: 40px;
+
+    
+}
+.blocks{
+    display:flex;
+    text-align:center;
+    margin: auto;
+    width:100%;
+    max-width:600px;
+}
+
+.blocks div{
+    margin: auto;
+    width: 100px;
+    height: 67px;
+    max-width:100%;
+    background-color:#E5E5E5;
+    border-radius: 12px;
+}
+.images{
+    position: relative;
+    margin:10%;
+    margin-top: 1%;
+}
+
+.img1{
+background-color: royalblue;
+width: 299px;
+height: 299px;
+border-radius: 12px;
+margin: 15px;
+
+}
+
+.img2{
+background-color:salmon;
+width: 629px;
+height: 299px;
+border-radius: 12px;
+margin: 15px;
+}
+
+.img3{
+    background-color:seagreen;
+width: 627px;
+height: 299px;
+border-radius: 12px;
+margin: 15px;
+}
+.img4{
+    background-color:tan;
+width: 297px;
+height: 630px;
+border-radius: 12px;
+margin: 15px;
+}
+.img5{
+    background-color:sienna;
+width: 299px;
+height: 299px;
+border-radius: 12px;
+margin: 15px;
+}
+
+.img6{
+    background-color: slateblue;
+width: 299px;
+height: 299px;
+border-radius: 12px;
+margin: 15px;
+
+}
+
+
+
