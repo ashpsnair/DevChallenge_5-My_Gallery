@@ -5,6 +5,7 @@
 
    
 }
+
 .profile{
     margin: auto;
     width:930px;
@@ -19,11 +20,34 @@
 
     
 }
+
+.profile h2{
+
+font-family: Montserrat;font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+margin-bottom: 0%;
+color: #4E5150;
+}
+
+.profile >p{
+    font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0em;
+margin-top:0%;
+color:#A9A9A9;
+
+}
 .blocks{
     display:flex;
     text-align:center;
     margin: auto;
-    width:930px;
+    width:350px;
     margin-top: 1%;
   
 }
@@ -37,17 +61,31 @@
     border-radius: 12px;
 }
 
-.blocks div p{
+.blocks div p:nth-child(1){
 font-family: Montserrat;
 font-size: 15px;
+color:#4E5150;
 font-style: normal;
 font-weight: 600;
 line-height: 20px;
 letter-spacing: 0em;
 text-align: center;
-padding: 5%;
-
+margin-bottom: 0%;
 }
+
+.blocks div p:nth-child(2){
+    font-family: Montserrat;
+    color:#BDBDBD;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0%;
+    }
+
+
 
 .images{
     width:930px;
@@ -108,3 +146,68 @@ margin: 15px;
 
 }
 
+@media only screen and (max-width: 900px) {
+
+.profile{
+        width: 340px;
+    }
+.blocks{
+    width: 345px;
+}    
+.blocks div{
+    width: 78px;
+height: 52px;
+
+}
+.blocks div p:nth-child(1){
+    margin: 0%;
+    margin-top: 10%;
+    font-size: 12px; 
+}
+.blocks div p:nth-child(2){
+    margin: 0%;
+    font-size: 12px; 
+}
+
+    .profile img{
+        width: 101.76px;
+height: 101.76px;
+    }
+
+    .images{
+        width: 340px;
+        margin-top: 15px;
+    }
+    .img1{
+        width: 109.32px;
+        height: 109.52px;
+        margin: 5px;
+    }
+    .img2{
+        width: 229.98px;
+height: 109.52px;
+margin: 5px;
+    }
+    .img3{
+        width: 229.25px;
+        height: 109.52px;
+        margin: 5px;}
+
+    .img4{
+        width: 108.59px;
+height: 230.76px;
+margin: 5px;
+    }
+
+    .img5{
+        width: 109.32px;
+        height: 109.52px;
+        margin: 5px;
+    }
+    .img6{
+        width: 109.32px;
+height: 109.52px;
+margin: 5px;
+    }
+
+  }
