@@ -101,7 +101,7 @@ margin-bottom: 0%;
   }
 
 .img1{
-background-color: royalblue;
+    background-color:tan;
 width: 299px;
 height: 299px;
 border-radius: 12px;
@@ -112,7 +112,7 @@ position: relative;
 }
 
 .img2{
-background-color:salmon;
+    background-color:tan;
 width: 629px;
 height: 299px;
 border-radius: 12px;
@@ -121,7 +121,7 @@ margin: 15px;
 }
 
 .img3{
-background-color:seagreen;
+
 width: 627px;
 height: 299px;
 border-radius: 12px;
@@ -139,7 +139,7 @@ margin: 15px;
 
 
 .img5{
-    background-color:sienna;
+    background-color:tan;
 width: 299px;
 height: 299px;
 border-radius: 12px;
@@ -148,7 +148,7 @@ margin: 15px;
 }
 
 .img6{
-    background-color: slateblue;
+    background-color:tan;
 width: 299px;
 height: 299px;
 border-radius: 12px;
