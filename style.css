@@ -2,12 +2,13 @@
     width: 100%;
     max-width: 1440px;
     margin:auto;
+
    
 }
 .profile{
-    width:60%;
-    margin:auto;
-   text-align:center;
+    margin: auto;
+    width:930px;
+    text-align:center;
 }
 .profile img{
     border-radius: 16px;
@@ -22,8 +23,9 @@
     display:flex;
     text-align:center;
     margin: auto;
-    width:100%;
-    max-width:600px;
+    width:930px;
+    margin-top: 1%;
+  
 }
 
 .blocks div{
@@ -34,10 +36,24 @@
     background-color:#E5E5E5;
     border-radius: 12px;
 }
+
+.blocks div p{
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+padding: 5%;
+
+}
+
 .images{
-    position: relative;
-    margin:10%;
+    width:930px;
     margin-top: 1%;
+    margin:auto;
+    
 }
 
 .img1{
@@ -46,6 +62,8 @@ width: 299px;
 height: 299px;
 border-radius: 12px;
 margin: 15px;
+position: relative;
+
 
 }
 
@@ -58,7 +76,7 @@ margin: 15px;
 }
 
 .img3{
-    background-color:seagreen;
+background-color:seagreen;
 width: 627px;
 height: 299px;
 border-radius: 12px;
@@ -71,6 +89,8 @@ height: 630px;
 border-radius: 12px;
 margin: 15px;
 }
+
+
 .img5{
     background-color:sienna;
 width: 299px;
@@ -87,6 +107,4 @@ border-radius: 12px;
 margin: 15px;
 
 }
-
-
 
