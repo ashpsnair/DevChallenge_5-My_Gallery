@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 #main{
     width: 100%;
     max-width: 1440px;
     margin:auto;
-
+    transition: width 1s;
    
 }
 
@@ -10,6 +12,7 @@
     margin: auto;
     width:930px;
     text-align:center;
+  
 }
 .profile img{
     border-radius: 16px;
@@ -17,13 +20,13 @@
     width:156px;
     height: 156px;
     margin-top: 40px;
-
+    transition: width 1s, height 1s;
     
 }
 
 .profile h2{
 
-font-family: Montserrat;font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 line-height: 29px;
@@ -33,7 +36,7 @@ color: #4E5150;
 }
 
 .profile >p{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
@@ -49,7 +52,8 @@ color:#A9A9A9;
     margin: auto;
     width:350px;
     margin-top: 1%;
-  
+    transition: width 1s;
+    transition: width 1s, height 1s;
 }
 
 .blocks div{
@@ -59,10 +63,11 @@ color:#A9A9A9;
     max-width:100%;
     background-color:#E5E5E5;
     border-radius: 12px;
+    transition: width 1s;
 }
 
 .blocks div p:nth-child(1){
-font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 font-size: 15px;
 color:#4E5150;
 font-style: normal;
@@ -74,7 +79,7 @@ margin-bottom: 0%;
 }
 
 .blocks div p:nth-child(2){
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color:#BDBDBD;
     font-size: 15px;
     font-style: normal;
@@ -91,8 +96,9 @@ margin-bottom: 0%;
     width:930px;
     margin-top: 1%;
     margin:auto;
+    transition: ease all .5s;
     
-}
+  }
 
 .img1{
 background-color: royalblue;
@@ -111,6 +117,7 @@ width: 629px;
 height: 299px;
 border-radius: 12px;
 margin: 15px;
+
 }
 
 .img3{
@@ -119,6 +126,7 @@ width: 627px;
 height: 299px;
 border-radius: 12px;
 margin: 15px;
+
 }
 .img4{
     background-color:tan;
@@ -126,6 +134,7 @@ width: 297px;
 height: 630px;
 border-radius: 12px;
 margin: 15px;
+
 }
 
 
@@ -135,6 +144,7 @@ width: 299px;
 height: 299px;
 border-radius: 12px;
 margin: 15px;
+
 }
 
 .img6{
@@ -144,6 +154,17 @@ height: 299px;
 border-radius: 12px;
 margin: 15px;
 
+
+}
+
+footer{
+    text-align:center;
+    width: 100%;
+    font-size:14px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-top:20%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -177,6 +198,7 @@ height: 101.76px;
     .images{
         width: 340px;
         margin-top: 15px;
+    
     }
     .img1{
         width: 109.32px;
